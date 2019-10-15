@@ -1,0 +1,17 @@
+{
+  "name": "nfq02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "suitcss index.css css/style.css"
+  },
+  "author": "Kazimieras Babrauskas",
+  "license": "ISC",
+  "dependencies": {
+    "suitcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "suitcss-preprocessor": "^4.0.0"
+  }
+}

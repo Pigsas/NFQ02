@@ -1,0 +1,100 @@
+body{
+    background-color: #F5F6F7;
+    font-family: Arial, serif;
+}
+.u-fixedWidth{
+    width: 100%;
+}
+.u-upperCase{
+    text-transform: uppercase;
+}
+.u-floatRight{
+    float: right;
+}
+.u-center{
+    text-align: center;
+}
+.u-margin-10{
+    margin: 10px;
+}
+.Container{
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+.Notification{
+    text-align: left;
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding:  1vw 1vw 0 1vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.Notification--danger {
+    border: 1px solid #F24011;
+    border-right-width: 3.5vw;
+}
+.Notification--success{
+    border: 1px solid #14872C;
+    border-right-width: 3.5vw;
+}
+.Notification-title{
+    font-weight: bold;
+}
+.Notification-text{
+    line-height: 1.8rem;
+}
+@media (max-width: 768px) {
+    .Notification-title{
+        font-size: .8rem;
+    }
+
+    .Notification-text{
+        line-height: 1.2rem;
+        font-size: .8rem;
+    }
+}
+@media (max-width: 425px) {
+    .Notification-title{
+        font-size: .5rem;
+    }
+
+    .Notification-text{
+        line-height: .8rem;
+        font-size: .5rem;
+    }
+}
+.Link{
+    color: #1E70A1;
+    text-decoration: none;
+}
+.Link:hover{
+    color: #1e5282;
+}
+.Button{
+    display: block;
+    padding: .7rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    box-shadow: #807f7d 0 0 .1vw;
+}
+@media (max-width: 768px) {
+    .Button{
+        font-size: .8rem;
+        padding: .5rem;
+    }
+}
+@media (max-width: 425px) {
+    .Button{
+        font-size: .5rem;
+        padding: .3rem;
+    }
+}
+.Button--primary{
+    background-color: #1E70A1;
+    color: #FFFFFF;
+}
+.Button--primary:hover{
+    background-color: #154e70;
+}
+
